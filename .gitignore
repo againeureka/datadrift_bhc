@@ -1,2 +1,6 @@
-# ignore datasets files
-data/
+# ignore dataset files
+car_tank_data/
+car_dmg_data/
+car_lp_data/
+car_data/
+face_data/
