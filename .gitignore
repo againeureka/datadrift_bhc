@@ -1,7 +1,3 @@
 # ignore dataset files
-car_tank_data/
-car_dmg_data/
-car_lp_data/
-car_data/
-face_data/
-car_loc_data/
+datasets/
+drift_datasets.zip
