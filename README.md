@@ -44,15 +44,24 @@ evidently가 요구하는 포맷에 맞춰 정제, 시나리오에 맞는 표본
   unzip datasets.zip
   ```
 
-#### 분석보고서 실행
-ipynb 파일 실행 -> 코드 실행<br>
-* 주피터 확장기능 동작하지 않을 시 <br>
-
-  jupyter nbextension 패키지 설치
+#### 노트북 실행
+* 교통 관련 데이터 분석 보고서 (사람 얼굴, 차량 정보 등)<br>
+  => ```scenario_based_drift_traffic.ipynb```
   
-    ```
-    pip install  jupyter_nbextensions_configurator jupyter_contrib_nbextensions
-    ```
+* 패션 관련 데이터 분석 보고서 (패션 트렌드, 브랜드 평판, 제품 판매량 등)<br>
+  => ```scenario_based_drift_fashion.ipynb```
+
+<br>
+<br>
+
+>(참고) 주피터 확장기능 동작하지 않을 시
+><br>
+>
+>jupyter nbextension 패키지 설치
+> 
+>```
+>pip install  jupyter_nbextensions_configurator jupyter_contrib_nbextensions
+>```
 
 
 
