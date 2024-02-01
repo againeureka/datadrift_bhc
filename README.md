@@ -1,2 +1,58 @@
 # datadrift
-Data Drift Report
+Evidently를 통한 데이터 드리프트 현상 관측 및 분석 보고서 작성<br>
+<br>
+
+
+
+## Evidently
+다양한 형태의 데이터셋에 대한 데이터 품질, 모델 평가, 드리프트 등의 시각화 보고서를 출력해주는 프로젝트<br>
+[Evidently Docs](https://www.evidentlyai.com/)
+
+
+
+## 데이터셋
+임베딩 데이터 드리프트 관측을 위해 이미지 데이터 임베딩 생성 작업 수행<br>
+evidently가 요구하는 포맷에 맞춰 정제, 시나리오에 맞는 표본 구성<br>
+
+**p02 파일서버에 업로드** (별도 문의)
+
+### Orange3
+데이터셋에 대한 다양한 조작 및 정제를 지원하는 어플리케이션<br>
+[Orange3 Downlaod](https://orangedatamining.com/download/)
+
+
+
+## 분석 보고서
+시각화 보고서 테스트, 가상 시나리오 수립 및 시나리오 기반 데이터 정제를 통한 드리프트 현상 관측 및 분석
+
+### 분석 보고서 실행
+
+#### 보고서 파일 다운로드
+```git clone https://github.com/ethicsense/datadrift.git```
+
+#### evidently 패키지 다운로드
+```pip install evidently```
+
+#### dataset 세팅
+* 데이터셋 압축해제
+  
+  ```
+  ## 데이터셋 파일명이 datasets가 아닌 경우
+  mv {DATASET_NAME} datasets.zip
+
+  mv datasets.zip datadrift/datasets.zip
+  unzip datasets.zip
+  ```
+
+#### 분석보고서 실행
+ipynb 파일 실행 -> 코드 실행<br>
+* 주피터 확장기능 동작하지 않을 시 <br>
+
+  jupyter nbextension 패키지 설치
+  
+    ```
+    pip install  jupyter_nbextensions_configurator jupyter_contrib_nbextensions
+    ```
+
+
+
