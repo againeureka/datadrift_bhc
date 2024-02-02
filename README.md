@@ -25,25 +25,25 @@ orange3 application을 활용하여 원하는 이미지 데이터에 대한 임�
 
 ```image_embedd_gen.ows```<br>
 
-1. Import Images<br>
+1. ```Import Images```<br>
 
    이미지 파일 업로드<br>
    폴더명을 컬럼명으로 치환
      >ex) ```male/1.jpg | female/2.jpg``` 구성 시 ```male```, ```female``` 두 개의 클래스로 구성된 데이터셋 생성<br>
      
-   Unique 기능을 통해 생성될 컬럼 목록 확인가능
+   ```Unique``` 기능을 통해 생성될 컬럼 목록 확인가능
    
-3. Image Embedding<br>
+3. ```Image Embedding```<br>
 
    이미지 임베딩 생성
      >생성 차원 width * height * 3(RGB)
    
-5. Save Data<br>
+5. ```Save Data```<br>
 
    원하는 포맷으로 데이터 추출
      >pkl, tab, csv, xls etc...
 
-   Data Table 기능을 통해 생성된 데이터셋 미리보기
+   ```Data Table``` 기능을 통해 생성된 데이터셋 미리보기
 
 ## 분석 보고서
 시각화 보고서 테스트, 가상 시나리오 수립 및 시나리오 기반 데이터 정제를 통한 드리프트 현상 관측 및 분석
