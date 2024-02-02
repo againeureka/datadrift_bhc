@@ -21,7 +21,8 @@ evidently가 요구하는 포맷에 맞춰 정제, 시나리오에 맞는 표본
 [Orange3 Downlaod](https://orangedatamining.com/download/)
 
 #### 이미지 임베딩 생성기
-orange3 application을 활용하여 원하는 이미지 데이터에 대한 임베딩 생성 가능<br>
+orange3 application을 활용하여 원하는 이미지 데이터에 대한 임베딩 생성 가능
+
 ```image_embedd_gen.ows```<br>
 
 1. Import Images<br>
