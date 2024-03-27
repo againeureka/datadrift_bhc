@@ -1,3 +1,6 @@
 # ignore dataset files
 datasets/
 drift_datasets.zip
+
+# ignore evidently ui workspace
+workspace/
