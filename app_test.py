@@ -11,6 +11,7 @@ from evidently import ColumnMapping
 from evidently.metric_preset import DataDriftPreset, TargetDriftPreset, RegressionPreset, DataQualityPreset
 
 from evidently.metrics import ColumnDriftMetric
+from evidently.metrics import DatasetSummaryMetric
 from evidently.metrics import ColumnSummaryMetric
 from evidently.metrics import DatasetDriftMetric
 from evidently.metrics import DatasetMissingValuesMetric
@@ -55,13 +56,14 @@ column_mapping.target = 'cnt'
 
 WORKSPACE = "workspace"
 
-YOUR_PROJECT_NAME = "New Project 6"
+YOUR_PROJECT_NAME = "New Project 7"
 YOUR_PROJECT_DESCRIPTION = "Test project using Bicycle dataset."
 
 
 def create_report(i: int):
     data_drift_report = Report(
         metrics=[
+            DatasetSummaryMetric(),
             DataDriftPreset()
         ],
         timestamp=datetime.datetime.now() + datetime.timedelta(days=i),
